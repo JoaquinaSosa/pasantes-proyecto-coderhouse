@@ -38,7 +38,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%; }
+  width: 100vh; }
   footer img {
     width: 15%; }
   footer ul {
@@ -254,8 +254,7 @@ footer {
 .main-productos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px; }
+  justify-content: center; }
   .main-productos .producto {
     width: 300px;
     background-color: #FFC4C4;
