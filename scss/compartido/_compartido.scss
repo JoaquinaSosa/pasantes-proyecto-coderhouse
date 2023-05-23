@@ -40,6 +40,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    
 
     img {
         width: 15%;
@@ -102,12 +103,12 @@ footer {
     }
 
     .ubicacion-index iframe {
-        width: 50%;
-        height: 50%;
+        width: 70%;
+        height: 70%;
     }
 
     .ubicacion-index div p {
-        width: 100%;
+        display: none;
     }
 
 }
@@ -125,6 +126,7 @@ footer {
     .nosotros_contenido {
         max-width: 100%;
     }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -145,7 +147,11 @@ footer {
     footer {
         flex-direction: column;   
     }
+    footer img {
+        width: 25%; 
+    }
 }
+
 @media screen and (max-width: 750px) {
     .producto {
     width: 100%;

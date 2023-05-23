@@ -79,10 +79,10 @@ footer {
   #principal {
     width: 100%; }
   .ubicacion-index iframe {
-    width: 50%;
-    height: 50%; }
+    width: 70%;
+    height: 70%; }
   .ubicacion-index div p {
-    width: 100%; } }
+    display: none; } }
 
 @media screen and (max-width: 450px) {
   .services__item {
@@ -103,7 +103,9 @@ footer {
   .imagen-contacto {
     display: none; }
   footer {
-    flex-direction: column; } }
+    flex-direction: column; }
+  footer img {
+    width: 25%; } }
 
 @media screen and (max-width: 750px) {
   .producto {
