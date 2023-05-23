@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav button {
+    background-color: #EE6983;
+    color: #f9e0e3;
+    border-radius: 5px;
+    border: 2px #850E35;
+    padding: 5px
+}
+header nav button:hover {
+    background-color: #850E35;
+}
+.dropdown-menu {
+    background-color: #ee698488;
+}
+.navbar-brand img {
+    width: 100px;
+}
+header {
+    background-color: #FFC4C4;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    color: #850E35;
+    margin: 0;
+}
+/*---Footer---*/
+footer {
+    background-color: #EE6983;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+    img {
+        width: 15%;
+    }
+    ul {
+        list-style: none;}
+            li a {
+            text-decoration: none;
+            color: #850E35
+            }
+        div h3 {
+            font-family: "Poppins";
+            font-size: 20px;
+            color: #850E35;
+            padding: 5px;
+        }
+        a img {
+            width: 40px;
+            height: 40px;
+        }
+        p {
+            font-family: "Poppins";
+            font-size: 15px;
+            color: #850E35;
+        
+        }
+}
+
+/*---Media Queris---*/
+/*Media Queris Index*/
+@media only screen and (max-width: 550px) {
+    .hero div h1 {
+        font-size: 36px;
+    }
+
+    .hero div p {
+        font-size: 24px;
+    }
+
+    .ofrecemos-calidad .contenido {
+        flex-direction: column;
+    }
+
+    .ofrecemos-calidad .contenido img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .ofrecemos-calidad .contenido p {
+        width: 100%;
+    }
+
+    .ubicacion-index div {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #principal {
+        width: 100%;
+    }
+
+    .ubicacion-index iframe {
+        width: 50%;
+        height: 50%;
+    }
+
+    .ubicacion-index div p {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .services__item {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .nosotros_imagen-container {
+        max-width: 100%;
+    }
+
+    .nosotros_contenido {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-contacto {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .form-contacto {
+        order: 1;
+    }
+
+    .imagen-contacto {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;   
+    }
+}
+@media screen and (max-width: 750px) {
+    .producto {
+    width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .producto {
+    padding: 10px;
+    }
+    
+    .producto img {
+    width: 100%;
+    height: auto;
+    }
+    
+    .producto h2 {
+    font-size: 18px;
+    }
+    
+    .producto p {
+    font-size: 14px;
+    }
+}

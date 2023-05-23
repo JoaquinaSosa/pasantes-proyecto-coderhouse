@@ -1,0 +1,55 @@
+/*Productos*/
+.main-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    .producto {
+        width: 300px;
+        background-color: #FFC4C4;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+        img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        h2 , h1 {
+            color: #850E35;
+            font-size: 20px;
+            transition: color 0.3s ease-in-out;
+        }
+        p {
+            color: #850E35;
+        }
+        a {
+            display: inline-block;
+            background-color: #EE6983;
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin-top: 10px;
+            border-radius: 3px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        &:hover {
+            transform: scale(1.05);
+            img {
+                transform: scale(1.1);
+            }
+            h2 {
+                color: #FFC4C4;
+            }
+            a {
+                background-color: #850E35;
+            }
+        }
+    }
+}
+

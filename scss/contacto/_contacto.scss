@@ -1,0 +1,59 @@
+/*---Contacto---*/
+.container-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.form-contacto {
+    background-color: #EE6983;
+    padding: 50px;
+    transition: background-color 0.5s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.form-contacto h2 {
+    margin-bottom: 30px;
+    color: #FFC4C4;
+}
+
+.form-contacto label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.form-contacto input[type="submit"] {
+    background-color: #850E35;
+    color: #FFF5E4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-contacto input[type="submit"]:hover {
+    background-color: #FFF5E4;
+    color: #EE6983;
+    transition: background-color 0.5s ease;
+}
+
+.imagen-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-contacto img {
+    max-width: 100%;
+    max-height: 100%;
+}
