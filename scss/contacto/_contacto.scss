@@ -6,7 +6,7 @@
 }
 
 .form-contacto {
-    background-color: #EE6983;
+    background-color:$color-secundario;
     padding: 50px;
     transition: background-color 0.5s ease;
     font-family: 'Poppins', sans-serif;
@@ -15,7 +15,7 @@
 
 .form-contacto h2 {
     margin-bottom: 30px;
-    color: #FFC4C4;
+    color:$color-terceario;
 }
 
 .form-contacto label {
@@ -33,7 +33,7 @@
 }
 
 .form-contacto input[type="submit"] {
-    background-color: #850E35;
+    background-color: $color-primario;
     color: #FFF5E4;
     padding: 10px 20px;
     border: none;
@@ -43,7 +43,7 @@
 
 .form-contacto input[type="submit"]:hover {
     background-color: #FFF5E4;
-    color: #EE6983;
+    color: $color-secundario;
     transition: background-color 0.5s ease;
 }
 

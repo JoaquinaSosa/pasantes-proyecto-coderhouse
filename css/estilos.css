@@ -37,8 +37,7 @@ footer {
   background-color: #EE6983;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  width: 100%; }
+  align-items: center; }
   footer img {
     width: 15%; }
   footer ul {
@@ -100,8 +99,6 @@ footer {
     grid-template-rows: auto auto; }
   .form-contacto {
     order: 1; }
-  .imagen-contacto {
-    display: none; }
   footer {
     flex-direction: column; }
   footer img {
@@ -109,7 +106,9 @@ footer {
 
 @media screen and (max-width: 750px) {
   .producto {
-    width: 100%; } }
+    width: 100%; }
+  .imagen-contacto {
+    display: none; } }
 
 @media screen and (max-width: 480px) {
   .producto {
@@ -147,7 +146,7 @@ footer {
       font-size: 30px;
       color: #FFF5E4;
       font-family: 'Poppins';
-      background-color: #850e36b4; }
+      background-color: #850E35; }
 
 .boton-index {
   background-color: #EE6983;
@@ -351,7 +350,7 @@ footer {
       font-size: 2rem;
       font-family: "Poppins";
       margin-bottom: 20px;
-      color: #ff6188; }
+      color: #850E35; }
     .nosotros .nosotros_contenido .nosotros_descripcion {
       font-size: 1.2rem;
       color: #444; }

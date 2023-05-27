@@ -14,7 +14,7 @@
         align-items: center;
         h1 {
             color: white;
-            background-color: #EE6983;
+            background-color: $color-secundario;
             font-family: 'Poppins', Times, serif;
             font-size: 45px;
             border-radius: 20px;
@@ -24,15 +24,15 @@
         font-size: 30px;
         color: #FFF5E4;
         font-family: 'Poppins';
-        background-color: #850e36b4;
+        background-color:$color-primario;
     }
 }
 }
 
 .boton-index {
-    background-color: #EE6983;
+    background-color:$color-secundario;
     border: none;
-    color: #850E35;
+    color: $color-primario;
     padding: 12px 24px;
     text-align: center;
     text-decoration: none;
@@ -65,15 +65,15 @@
 }
 
 .boton-hero {
-    background-color: #850E35;
+    background-color:$color-primario;
     padding: 5px;
     color: white;
     font-family: "Poppins";
     transition: 2s;
     &:hover {
-        background-color: #FFC4C4;
-        color: #850E35;
-        border: 1px solid #850E35;
+        background-color: $color-terceario;
+        color:$color-primario;
+        border: 1px solid $color-primario;
     }
 }
 
@@ -81,8 +81,8 @@
 .ofrecemos-calidad h2 {
     font-size: 30px;
     font-family: 'Poppins';
-    color: #850E35;
-    background-color: #EE6983;
+    color: $color-primario;
+    background-color: $color-secundario;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -135,8 +135,8 @@
 .ubicacion-index h2 {
     font-size: 30px;
     font-family: "Poppins";
-    color: #850E35;
-    background-color: #EE6983;
+    color: $color-primario;
+    background-color: $color-secundario;
     text-align: center;
     margin-top: 10px;
 }

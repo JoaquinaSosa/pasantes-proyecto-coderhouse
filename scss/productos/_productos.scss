@@ -20,16 +20,16 @@
             transition: transform 0.3s ease-in-out;
         }
         h2 , h1 {
-            color: #850E35;
+            color: $color-primario;
             font-size: 20px;
             transition: color 0.3s ease-in-out;
         }
         p {
-            color: #850E35;
+            color: $color-primario;
         }
         a {
             display: inline-block;
-            background-color: #EE6983;
+            background-color: $color-secundario;
             color: white;
             text-decoration: none;
             padding: 5px 10px;
@@ -46,7 +46,7 @@
                 color: #FFC4C4;
             }
             a {
-                background-color: #850E35;
+                background-color: $color-primario;
             }
         }
     }

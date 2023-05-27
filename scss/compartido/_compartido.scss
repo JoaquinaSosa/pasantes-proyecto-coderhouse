@@ -137,10 +137,6 @@ footer {
         order: 1;
     }
 
-    .imagen-contacto {
-        display: none;
-    }
-
     footer {
         flex-direction: column;   
     }
@@ -151,9 +147,14 @@ footer {
 
 @media screen and (max-width: 750px) {
     .producto {
-    width: 100%;
+    width: 100%;}
+    
+    .imagen-contacto {
+        display: none;
     }
 }
+
+
 @media screen and (max-width: 480px) {
     .producto {
     padding: 10px;
