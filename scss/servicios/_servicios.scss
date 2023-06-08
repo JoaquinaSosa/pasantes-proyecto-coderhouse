@@ -2,7 +2,7 @@
 .servicios-h1 {
     color: white;
     font-family: "Poppins";
-    background-color: #850E35;
+    background-color: $color-primario;
     padding: 10px;
     font-size: 60px;
     text-align: center;
@@ -28,7 +28,7 @@
                 font-size: 1.5rem;
                 font-family: "Poppins";
                 margin: 20px 0 10px 0;
-                color: #ff6188;
+                color: $color-secundario;
             }
             .servicios_descripcion {
                 font-size: 1rem;
