@@ -3,11 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital@1&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    flex:1
+}
+body{
+display: flex;
+flex-direction: column;
+min-height: 100vh;}
 header nav button {
     background-color: #EE6983;
     color: #f9e0e3;
@@ -40,6 +49,9 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     width: 100vw;
+    margin-top: auto;
+    
+
     img {
         width: 15%;
     }
@@ -65,6 +77,7 @@ footer {
             color: #850E35;
         
         }
+        
 }
 
 /*---Media Queris---*/
@@ -72,10 +85,14 @@ footer {
 @media only screen and (max-width: 550px) {
     .hero div h1 {
         font-size: 36px;
+        margin:10px;
+        text-align: center;
     }
 
     .hero div p {
         font-size: 24px;
+        margin:10px;
+        text-align: center;
     }
 
     .ofrecemos-calidad .contenido {
@@ -85,10 +102,12 @@ footer {
     .ofrecemos-calidad .contenido img {
         width: 80%;
         margin-bottom: 20px;
+        border-radius: 15px;
     }
 
     .ofrecemos-calidad .contenido p {
-        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .ubicacion-index div {
@@ -132,7 +151,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        
+
         img {
             display: none;
         }
@@ -148,14 +167,17 @@ footer {
     }
 
     footer {
-        flex-direction: column;   
+        flex-direction: column; 
+
     }
 }
 @media screen and (max-width: 750px) {
     .producto {
     width: 100%
+
+    }
 }
-}
+
 
 
 @media screen and (max-width: 480px) {
