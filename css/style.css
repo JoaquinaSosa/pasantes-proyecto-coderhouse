@@ -518,7 +518,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and  (max-width: 600px) {
     .container-contacto {
         display: grid;
         grid-template-columns: 1fr;
@@ -529,17 +529,19 @@ footer p {
         order: 1;
     }
 
-    .imagen-contacto {
-        display: none;
-    }
-
     footer {
         flex-direction: column;   
+    }
+    footer img {
+        width: 25%;
     }
 }
 @media screen and (max-width: 750px) {
     .producto {
     width: 100%;
+    }
+    .imagen-contacto {
+        display: none;
     }
 }
 @media screen and (max-width: 480px) {
