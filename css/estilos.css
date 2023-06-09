@@ -198,11 +198,18 @@
         height: auto;
         object-fit: cover;
         border-radius: 8px; }
+        .servicios .servicios_container .servicios_item .servicios_img:hover {
+          transition: 1s;
+          transform: scale(1.05); }
       .servicios .servicios_container .servicios_item .servicios_titulo {
         font-size: 1.5rem;
         font-family: "Poppins";
         margin: 20px 0 10px 0;
-        color: #EE6983; }
+        color: #EE6983;
+        background-color: #f3bed7bb; }
+        .servicios .servicios_container .servicios_item .servicios_titulo:hover {
+          transition: 1s;
+          transform: scale(1.05); }
       .servicios .servicios_container .servicios_item .servicios_descripcion {
         font-size: 1rem;
         margin-bottom: 20px;
@@ -223,6 +230,11 @@
         height: auto;
         object-fit: cover;
         border-radius: 8px; }
+        .nosotros .nosotros_contenedor .nosotros_imagen-container .nosotros_imagen:hover {
+          transform: scale(1.05); }
+          .nosotros .nosotros_contenedor .nosotros_imagen-container .nosotros_imagen:hover img {
+            transform: scale(1.1);
+            transition: 1s; }
   .nosotros .nosotros_contenido {
     max-width: 600px;
     text-align: center;
@@ -232,6 +244,10 @@
       font-family: "Poppins";
       margin-bottom: 20px;
       color: #850E35; }
+      .nosotros .nosotros_contenido .nosotros_titulo:hover {
+        background-color: #ee698450;
+        transition: 1s;
+        transform: scale(1.05); }
     .nosotros .nosotros_contenido .nosotros_descripcion {
       font-size: 1.2rem;
       color: #444; }
